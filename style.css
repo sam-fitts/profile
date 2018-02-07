@@ -1,0 +1,116 @@
+/*Colors and fonts*/
+
+body {
+  background-color: #c6c5b9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #757780;
+}
+
+
+h1, h2, h3 {
+  color: #7f9172;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 18pt;
+}
+
+h2 {
+  font-size: 15pt;
+}
+
+h3 {
+  font-size: 13pt;
+}
+
+a {
+  color: #c4a69d;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  color: #757780;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+p {
+  text-align: justify;
+}
+
+/*Simple components*/
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card{
+  background: #dbcdc6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.list-inline {
+  padding-left: 0px;
+}
+
+.img-circle{
+  border-radius: 45%;
+}
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+
+#movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
+}
